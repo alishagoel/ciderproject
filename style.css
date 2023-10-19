@@ -1,0 +1,177 @@
+/*Dropdown Reference:https://www.w3schools.com/howto/howto_css_dropdown.asp*/
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300&display=swap');
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+  align-items: center;
+}
+p{
+	font-style: italic;
+	color: yellow;
+	padding-top: 3vmin;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+}
+.bodyPsych {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+
+.bodyMain{
+	display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+	background-color:black;
+	font-family: 'Azeret Mono';
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  background-color:#28201e;
+  padding: 2vmin;
+  font-size: 1em;
+	font-family: 'Azeret Mono';
+}
+
+.navMenu {
+  display: flex;
+  width: 96.5vmax;
+  justify-content: space-around;
+}
+
+.imagesPsych {
+    height: 100vh;
+}
+
+.dropdown .drop{ 
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  font-size: 1em;
+  color: white;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #28201e;
+  padding: 2vmin;
+  width: 15%;
+}
+
+.dropdown:hover .dropdownContent {
+  display: flex;
+  flex-direction: column;
+  line-height: 5vmin;
+}
+
+a, a:visited, a:active{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.fullImage{
+	padding-top: 7vmin;
+	width: 60vw;
+}
+
+.buttonR{
+	padding: 2vmin;
+	margin: 35vmin;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-weight: bold;
+	font-size: 3em;
+	background-color: red;
+	border: 0;
+}
+
+.sideBySide{
+	display: flex;
+}
+
+.smallImg{
+	padding-top: 20vmin;
+	width: 40vw;
+}
+
+.smallImg2{
+	padding-top: 20vmin;
+	width: 20vw;
+}
+
+.door{
+	height: 70vh;
+	padding-top: 7vmin;
+}
+
+.footer{
+	background-color: #28201e;
+	padding: 2vmin;
+	margin-top: auto;
+	width: 96.5vmax;
+	display: flex;
+	flex-direction: column;
+	line-height: 5vmin;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.pFooter{
+	padding-top: 0vmin;
+	color: white;
+	font-style: normal;
+	font-family: 'Azeret Mono';
+}
+
+.aFooter{
+	font-size: 2em;
+}
+
+.artistBio{
+	display: flex;
+	width: 50vw;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.artistBiop{
+	text-align: justify;
+	padding: 3vmin;
+	color: white;
+	font-family: 'Azeret Mono';
+	font-style: normal;
+}
+
+.artistImg{
+	display: flex;
+	padding: 3vmin;
+	width: 29vw;
+	justify-content: center;
+	align-items: center;
+}
+
+.parallax-1 {
+	display: flex;
+	width: 90vw;
+}
+
+.name{
+	color: red;
+}
