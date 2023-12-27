@@ -1,8 +1,9 @@
-/*Dropdown Reference:https://www.w3schools.com/howto/howto_css_dropdown.asp*/
+
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300&display=swap');
 *{
 	margin:0;
 	padding:0;
+	box-sizing: border-box;
 }
 
 body{
@@ -10,10 +11,12 @@ body{
 	display: flex;
 	flex-direction: column;
   align-items: center;
+  align-items: center;
+  overflow-x: hidden;
 }
 p{
 	font-style: italic;
-	color: yellow;
+	color: red;
 	padding-top: 3vmin;
 	font-family: 'Helvetica', 'Arial', sans-serif;
 }
@@ -22,7 +25,7 @@ p{
     justify-content: center;
     align-items: center;
     background-color: black;
-
+    cursor: pointer;
 }
 
 .bodyMain{
@@ -31,9 +34,11 @@ p{
   min-height: 100vh;
 	background-color:black;
 	font-family: 'Azeret Mono';
+	overflow-x: hidden;
 }
 
 .nav {
+	width:100%;
   display: flex;
   justify-content: center;
   background-color:#28201e;
@@ -67,7 +72,6 @@ p{
   position: absolute;
   background-color: #28201e;
   padding: 2vmin;
-  width: 15%;
 }
 
 .dropdown:hover .dropdownContent {
@@ -79,10 +83,6 @@ p{
 a, a:visited, a:active{
 	color: white;
 	text-decoration: none;
-}
-
-a:hover{
-	text-decoration: underline;
 }
 
 .fullImage{
@@ -98,6 +98,22 @@ a:hover{
 	font-size: 3em;
 	background-color: red;
 	border: 0;
+	color:black;
+}
+
+.buttonQ{
+	padding: 1vmin;
+	margin: 3vmin;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	background-color: red;
+	border: 0;
+	color:black;
+}
+
+button:hover{
+	cursor: pointer;
 }
 
 .sideBySide{
@@ -174,4 +190,87 @@ a:hover{
 
 .name{
 	color: red;
+}
+
+.underlines{
+	text-decoration: underline;
+}
+#img2{
+	display: none;
+}
+
+#img1{
+
+}
+
+@media only screen and (max-width: 640px){
+	.navMenu {
+	  width: 100vmin;
+	}
+	p{
+		padding: 4vmin;
+		font-size: 0.7em;
+		text-align: center;
+	}
+	.fullImage{
+		padding-top: 50%;
+		width: 80vw;
+	}
+	.topPad{
+		padding-top: 20%;
+	}
+	.buttonR{
+		margin: 35vmin;
+		font-size: 3em;
+	}
+	.sideByside{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.smallImg{
+		padding: 0;
+		width: 80vw;
+		
+	}
+	.smallImg2{
+		padding: 0;
+		width: 60vw;
+	}
+	.artistBio{
+		display: flex;
+		flex-direction: column;
+		width: 50vw;
+		justify-content: center;
+		align-items: center;
+	}
+	.artistBiop{
+		padding: 3vmin;
+	}
+	.artistImg{
+		padding: 3vmin;
+		width: 70vw;
+		justify-content: center;
+		align-items: center;
+	}
+	.footer{
+		width: 100%;
+	}
+	.pFooter{
+		padding-top: 2vmin;
+	}
+	small{
+		font-size: 0.5em;
+	}
+	.imagesPsych {
+		margin-top: 20%;
+		padding-top: 40%;
+    height: 105vmin;
+	}
+	#img2{
+		display: block;
+	}
+	#img1{
+		display: none;
+	}
 }

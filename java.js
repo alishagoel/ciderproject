@@ -22,14 +22,12 @@ const imagePaths = [
     '18.jpg',
     '19.jpg',
     '20.jpg',
-    '21.jpg',
-    '22.jpg'
 ];
 
 img.addEventListener('click', function () {
     toggle = (toggle + 1);
     img.src = imagePaths[toggle];
-    if (toggle == 22){
+    if (toggle == 20){
     	onclick = location.replace("index.html")
     }
 });
