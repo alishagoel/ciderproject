@@ -85,6 +85,10 @@ a, a:visited, a:active{
 	text-decoration: none;
 }
 
+a:hover{
+	text-decoration: underline;
+}
+
 .fullImage{
 	padding-top: 7vmin;
 	width: 60vw;
