@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: black;
+	overflow-y: hidden;
+}
+
+.redthreads{
+	height: 100vh;
+}
+
+.cl{
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.logo{
+	margin-top: 27vh;
+	height: 30vh;
+}
+
+.rw{
+	text-align: center;
+	color: red;
+	font-size: 1.5em;
+	font-weight: bold;
+	flex-direction: column;
+}

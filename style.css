@@ -14,6 +14,53 @@ body{
   align-items: center;
   overflow-x: hidden;
 }
+
+.side2letters{
+	padding: 2vh;
+	width: 40vw;
+}
+
+.side1letters{
+	padding: 2vh;
+	width: 79vw;
+}
+
+.side3letters{
+	padding: 2vh;
+	width: 20vw;
+}
+
+.side3vletters{
+	padding: 2vh;
+	width: 23vw;
+}
+
+.side3v2letters{
+	padding: 2vh;
+	width: 35vw;
+}
+
+.side3v3letters{
+	padding: 2vh;
+	width: 18vw;
+}
+
+.side3v4letters{
+	padding: 2vh;
+	width: 38vw;
+}
+
+#flexletters{
+	display: flex;
+	flex-direction: row;
+}
+
+.lettersp{
+	font-size: 1.2em;
+	text-align: center;
+	padding-bottom: 3vh;
+	color: white;
+}
 .cursor{
 	cursor: url(cursor.png), auto;
 }
@@ -22,6 +69,14 @@ p{
 	color: red;
 	padding-top: 3vmin;
 	font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+h3{
+	font-style: italic;
+	padding-top: 2vh;
+	font-family:'Helvetica', 'Arial', sans-serif;
+	color: red;
+	font-size: 1.2em;
 }
 .bodyPsych {
     display: flex;
@@ -40,14 +95,19 @@ p{
 	overflow-x: hidden;
 }
 
-.nav {
+.nav{
 	width:100%;
+	height: 6vh;
   display: flex;
   justify-content: center;
   background-color:#28201e;
   padding: 2vmin;
   font-size: 1em;
 	font-family: 'Azeret Mono';
+}
+
+.fixer{
+	position: fixed;
 }
 
 .navMenu {
@@ -97,6 +157,11 @@ a:hover{
 	width: 60vw;
 }
 
+.fullImage2{
+	padding-top: 0vmin;
+	width: 56vw;
+}
+
 .buttonR{
 	padding: 2vmin;
 	margin: 35vmin;
@@ -135,6 +200,11 @@ button:hover{
 .smallImg2{
 	padding-top: 20vmin;
 	width: 20vw;
+}
+
+.smallImg3{
+	padding-top: 5vmin;
+	width: 27vw;
 }
 
 .door{
@@ -207,6 +277,7 @@ button:hover{
 }
 
 #img1{
+	padding-top: 6vh;
 
 }
 
@@ -276,6 +347,7 @@ button:hover{
 	}
 	#img2{
 		display: block;
+		padding-top: 6vh;
 	}
 	#img1{
 		display: none;

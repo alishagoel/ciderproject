@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300&display=swap');
+
+body {
+    overflow: hidden;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+    color: whitesmoke;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.concertfont {
+    font-family: 'Azeret Mono';
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+}
+
+.flipbook-viewport {
+    overflow: hidden;
+    height: 80vmin;
+    width: 129vmin;
+}
+
+.flipbook-viewport .page {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.flipbook .page {
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.flipbook-viewport .page img {
+    height: 2.05%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 0;
+}
+
+flipbook-viewport .shadow {
+    -webkit-transition: -webkit-box-shadow 0.5s;
+    -moz-transition: -moz-box-shadow 0.5s;
+    -o-transition: -webkit-box-shadow 0.5s;
+    -ms-transition: -ms-box-shadow 0.5s;
+    -webkit-box-shadow: 0 0 20px #ccc;
+    -moz-box-shadow: 0 0 20px #ccc;
+    -o-box-shadow: 0 0 20px #ccc;
+    -ms-box-shadow: 0 0 20px #ccc;
+    box-shadow: 0 0 20px #ccc;
+}
+
+.hello {
+    padding-top: 5vmin;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .flipbook-viewport {
+        height: 60vmin;
+        width: 95vmin;
+    }
+
+    .flipbook-viewport .page img{
+    	height: 0.9%;
+    }
+}
