@@ -213,7 +213,7 @@ button:hover{
 }
 
 .footer{
-	background-color: #28201e;
+	background-color: black;
 	padding: 2vmin;
 	margin-top: auto;
 	width: 100vw;
@@ -279,6 +279,20 @@ button:hover{
 #img1{
 	padding-top: 6vh;
 
+}
+#creditwriting{
+	font-family: 'Azeret Mono';
+	color: white;
+	text-align: center;
+}
+
+#creditwriting p{
+	color: white;
+	font-family: 'Azeret Mono';
+}
+
+#creditwriting h3{
+	font-family: 'Azeret Mono';
 }
 
 @media only screen and (max-width: 640px){
@@ -351,5 +365,11 @@ button:hover{
 	}
 	#img1{
 		display: none;
+	}
+	.smallImg3{
+		width: 57vw;
+	}
+	.fullImage2{
+		padding-top: 7vmin;
 	}
 }

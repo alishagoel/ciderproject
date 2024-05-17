@@ -180,7 +180,7 @@ text-align: center;}
 @media screen and (max-width: 420px) {
   .hotspot--title {
     line-height: 30px;
-    font-size: 9px;
+    font-size: 2em;
   }
   .hotspot--cta {
     width: 30px;
