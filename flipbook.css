@@ -83,13 +83,13 @@ flipbook-viewport .shadow {
 }
 
 /* Media query for smaller screens */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
     .flipbook-viewport {
-        height: 60vmin;
-        width: 100vmin;
+        height: 55vmin;
+        width: 90vmin;
     }
 
     .flipbook-viewport .page img{
-    	height: 0.9%;
+    	
     }
 }
