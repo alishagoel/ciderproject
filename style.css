@@ -329,22 +329,8 @@ button:hover{
 		padding: 0;
 		width: 60vw;
 	}
-	.artistBio{
-		display: flex;
-		flex-direction: column;
-		width: 50vw;
-		justify-content: center;
-		align-items: center;
-	}
-	.artistBiop{
-		padding: 3vmin;
-	}
-	.artistImg{
-		padding: 3vmin;
-		width: 70vw;
-		justify-content: center;
-		align-items: center;
-	}
+	
+	
 	.footer{
 		width: 100%;
 	}
