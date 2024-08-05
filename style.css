@@ -62,7 +62,7 @@ body{
 	color: white;
 }
 .cursor{
-	cursor: url(cursor.png), auto;
+	cursor: url(redroom/cursor.png), auto;
 }
 p{
 	font-style: italic;
