@@ -104,6 +104,7 @@ h3{
   padding: 2vmin;
   font-size: 1em;
 	font-family: 'Azeret Mono';
+	z-index: 9999;
 }
 
 .fixer{
@@ -114,6 +115,7 @@ h3{
   display: flex;
   width: 96.5vmax;
   justify-content: space-around;
+  z-index: 9999;
 }
 
 .imagesPsych {
@@ -281,6 +283,7 @@ button:hover{
 
 }
 #creditwriting{
+	padding-top: 12vh;
 	font-family: 'Azeret Mono';
 	color: white;
 	text-align: center;
@@ -296,6 +299,9 @@ button:hover{
 }
 
 @media only screen and (max-width: 640px){
+	.nav{
+		height: 5vh;
+	}
 	.navMenu {
 	  width: 100vmin;
 	}
@@ -333,9 +339,10 @@ button:hover{
 	
 	.footer{
 		width: 100%;
+		margin-top: 3vh;
 	}
 	.pFooter{
-		padding-top: 2vmin;
+	
 	}
 	small{
 		font-size: 0.5em;

@@ -44,3 +44,9 @@ body{
 	flex-direction: column;
 	padding: 10vw;
 }
+
+.swipe{
+	font-size: 0.6em;
+	color: white;
+	margin-top: 4vh;
+}
